@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TcknView</string>
+    <string name="tckn_default_error_messege">Geçersiz TCKN Numarası</string>
+    <string name="tckn_hint">TC Kimlik Numarası</string>
+    <string name="tckn_rule3_messege">İlk hanesi 0 olamaz.</string>
+    <string name="tckn_rule2_messege">TC Kimlik numarası 11 basamaktan oluşmalıdır.</string>
+    <string name="tckn_rule4_messege">İlk 9 basamak arasındaki algoritma, 10. basamağı vermelidir.</string>
+    <string name="tckn_rule5_messege">İlk 10 basamak arasındaki algoritma, 11. basamağı vermelidir.</string>
+    <string name="tckn_number_of_chrs">Kalan karakter sayısı: %1$d</string>
+</resources>
