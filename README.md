@@ -66,9 +66,9 @@ XML içerisinde her hangi bir parametre belirtmediğinizde alınacak varsayılan
 Bileşeni henüz bir Android library'si haline çevirmediğim için manuel kurulum yapılmaldır.
 
 ```res>values>``` altındaki
-+ attrs.xml一
-+ string.xml一
-+ style.xml ve一
-+ TcknView.java一
++ ```attrs.xml```
++ ```string.xml```
++ ```style.xml``` ve
++ ```TcknView.java```
 
 dosyaları projenize kopyalayın.
