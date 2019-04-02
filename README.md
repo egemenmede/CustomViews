@@ -51,9 +51,7 @@ tcknView.checkTextChangedListener(new TextWatcher() {
                 //DEFAULT: tcknView.setError(tcknView.getDefaultErrorMessege());
                 tcknView.setError(getString(R.string.tckn_rule4_messege));
             }
-            if (txtInput.length() >= tcknView.getChrCount()
-                    &amp;&amp; tcknView.getRuleFiveStatus(txtInput).equals(false)
-                    &amp;&amp; tcknView.isVisibleErrorMessege()){
+            if (txtInput.length() >= tcknView.getChrCount() && tcknView.getRuleFiveStatus(txtInput).equals(false) && tcknView.isVisibleErrorMessege()){
                 //DEFAULT: tcknView.setError(tcknView.getDefaultErrorMessege());
                 tcknView.setError(getString(R.string.tckn_rule5_messege));
             }
