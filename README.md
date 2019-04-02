@@ -38,7 +38,7 @@ tcknView.checkTextChangedListener(new TextWatcher() {
         String txtInput = charSequence.toString();
 
         if (tcknView.getFirstValueZeroStatus(txtInput)
-                && tcknView.isVisibleErrorMessege()){
+                &amp;&amp; tcknView.isVisibleErrorMessege()){
                 //DEFAULT: tcknView.setError(tcknView.getDefaultErrorMessege());
                 tcknView.setError(getString(R.string.tckn_rule3_messege));
         }else{
@@ -49,14 +49,14 @@ tcknView.checkTextChangedListener(new TextWatcher() {
                 tcknView.setErrorEnabled(false);
             }
             if (txtInput.length() >= tcknView.getChkCount()
-                    && tcknView.getRuleFourStatus(txtInput).equals(false)
-                    && tcknView.isVisibleErrorMessege()){
+                    &amp;&amp; tcknView.getRuleFourStatus(txtInput).equals(false)
+                    &amp;&amp; tcknView.isVisibleErrorMessege()){
                 //DEFAULT: tcknView.setError(tcknView.getDefaultErrorMessege());
                 tcknView.setError(getString(R.string.tckn_rule4_messege));
             }
             if (txtInput.length() >= tcknView.getChrCount()
-                    && tcknView.getRuleFiveStatus(txtInput).equals(false)
-                    && tcknView.isVisibleErrorMessege()){
+                    &amp;&amp; tcknView.getRuleFiveStatus(txtInput).equals(false)
+                    &amp;&amp; tcknView.isVisibleErrorMessege()){
                 //DEFAULT: tcknView.setError(tcknView.getDefaultErrorMessege());
                 tcknView.setError(getString(R.string.tckn_rule5_messege));
             }
