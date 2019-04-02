@@ -22,3 +22,16 @@ Android için TCKN (TC Kimlik No) kontrolü yapan bileşen.
         android:layout_height="wrap_content"
         android:hint="@string/tckn_hint" />
 ```
+
+İstenirse XML içerisinden ya da kod içerisinde 2 özelliği üzerinde parametrik olarak değişiklik yapılabilir.
+
+```xml
+tckn:visibleErrorMessege="true"
+tckn:defaultErrorMessege="Default Message"
+```
+
+İsterseniz TC Kimlik No Doğrulama Algoritması içerisindeki her bir hata şekli için ayrı ayrı mesajlar verebildiğiniz gibi, hepsi için tek bir mesaj da verebilirsiniz.
+
+Bunun için `defaultErrorMessege` parametresine istediğiniz mesajı verebilirsiniz. Oluşacak hataların gösterilmesi ya da gösterilmemesini istiyorsanız `visibleErrorMessege`parametresinin değerini `true` veya `false` olarak verebilirsiniz.
+
+XML içerisinde hiç bir parametre belirtilmemişse varsayılan değerleri `true` ve `Default Message` dır.
