@@ -106,7 +106,7 @@ Her hata türü için farklı bir mesaj vermek isterseniz yukarıdaki gibi hata 
 XML içerisinde her hangi bir parametre belirtmediğinizde alınacak varsayılan değerleri de buradan değiştirebilirsiniz.
 
 ## Kurulum
-Bileşeni henüz bir Android library'si haline çevirmediğim için manuel kurulum yapılmaldır.
+Bileşeni henüz bir Android library'si haline çevirmediğim için manuel kurulum yapılmalıdır.
 
 ```res>values>``` altındaki
 + ```attrs.xml```
