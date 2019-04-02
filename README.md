@@ -111,7 +111,7 @@ Bileşeni henüz bir Android library'si haline çevirmediğim için manuel kurul
 ```res>values>``` altındaki
 + ```attrs.xml```
 + ```string.xml```
-+ ```style.xml``` ve
++ ```style.xml``` ve root altındaki
 + ```TcknView.java```
 
-dosyaları projenize kopyalayın.
+dosyalarını projenizin ilgili yerlerine kopyalayın.
