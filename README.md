@@ -35,3 +35,40 @@ tckn:defaultErrorMessege="Default Message"
 Bunun için `defaultErrorMessege` parametresine istediğiniz mesajı verebilirsiniz. Oluşacak hataların gösterilmesi ya da gösterilmemesini istiyorsanız `visibleErrorMessege`parametresinin değerini `true` veya `false` olarak verebilirsiniz.
 
 XML içerisinde hiç bir parametre belirtilmemişse varsayılan değerleri `true` ve `Default Message` dır.
+
+## string.xml
+```xml
+<resources>
+    <string name="app_name">TcknView</string>
+    <string name="tckn_default_error_messege">Geçersiz TCKN Numarası</string>
+    <string name="tckn_hint">TC Kimlik Numarası</string>
+    <string name="tckn_rule3_messege">İlk hanesi 0 olamaz.</string>
+    <string name="tckn_rule2_messege">TC Kimlik numarası 11 basamaktan oluşmalıdır.</string>
+    <string name="tckn_rule4_messege">İlk 9 basamak arasındaki algoritma, 10. basamağı vermelidir.</string>
+    <string name="tckn_rule5_messege">İlk 10 basamak arasındaki algoritma, 11. basamağı vermelidir.</string>
+    <string name="tckn_number_of_chrs">Kalan karakter sayısı: %1$d</string>
+</resources>
+```
+
+Her hata türü için farklı bir mesaj vermek isterseniz yukarıdaki gibi hata mesajlarını değiştirebilirsiniz.
+
+## style.xml
+```xml
+<style name="DefaultTcknStyle">
+    <item name="visibleErrorMessege">true</item>
+    <item name="defaultErrorMessege">@string/tckn_default_error_messege</item>
+</style>
+```
+
+XML içerisinde her hangi bir parametre belirtmediğinizde alınacak varsayılan değerleri de buradan değiştirebilirsiniz.
+
+## Kurulum
+Bileşeni henüz bir Android library'si haline çevirmediğim için manuel kurulum yapılmaldır.
+
+```res>values>``` altındaki
++ attrs.xml一
++ string.xml一
++ style.xml ve一
++ TcknView.java一
+
+dosyaları projenize kopyalayın.
